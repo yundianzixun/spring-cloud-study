@@ -1,0 +1,40 @@
+server:
+  port: 8080
+spring:
+  application:
+    # 指定注册到eureka server上的服务名称
+    name: microservice-provider-user
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    com.itunion: DEBUG
+management:
+  endpoints:
+    web:
+      exposure:
+      # 开放所有监控端点
+        include: '*'
+  endpoint:
+    health:
+      # 是否展示健康检查详情
+      show-details: always
+eureka:
+  client:
+    service-url:
+      # eureka server的通讯地址，注意路径
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    # 是否将IP注册到eureka server，false：否，ture：是
+    prefer-ip-address: true

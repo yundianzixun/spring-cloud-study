@@ -1,0 +1,4 @@
+com/itunion/cloud/dao/UserRepository.class
+com/itunion/cloud/web/controller/UserController.class
+com/itunion/cloud/entity/User.class
+com/itunion/cloud/MicroserviceProviderUserApplication.class

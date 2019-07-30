@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    # 指定注册到eureka server上的服务名称
+    name: microservice-consumer-goods
+eureka:
+  client:
+    service-url:
+      # eureka server的通讯地址，注意路径
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    # 是否将IP注册到eureka server，false：否，ture：是
+    prefer-ip-address: true
