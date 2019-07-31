@@ -5,6 +5,8 @@ Spring Cloud（Greenwich版）系列博客
 
 [Spring Cloud（Greenwich版）-02-服务注册与服务发现-Eureka入门](https://www.jianshu.com/p/e170e974c9a3)
 
+[Spring Cloud（Greenwich版）-03-编写高可用Eureka Server（集群）](https://www.jianshu.com/p/95d3d1bd9e13)
+
 
 ## 贡献者
 
