@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: microservice-discovery-eureka-ha
+---
+spring:
+  profiles: eurekaService1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: eurekaService1
+  client:
+    service-url:
+      defaultZone: http://eurekaService2:8762/eureka/ # 将自己注册到eurekaService2这个Eureka上面去
+---
+spring:
+  profiles: eurekaService2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: eurekaService2
+  client:
+    service-url:
+      defaultZone: http://eurekaService1:8761/eureka/
