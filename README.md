@@ -7,6 +7,9 @@ Spring Cloud（Greenwich版）系列博客
 
 [Spring Cloud（Greenwich版）-03-编写高可用Eureka Server（集群）](https://www.jianshu.com/p/95d3d1bd9e13)
 
+[Spring Cloud（Greenwich版）-04-Spring Cloud集成Security（认证）](https://www.jianshu.com/p/44b79a59a73b)
+
+
 
 ## 贡献者
 
