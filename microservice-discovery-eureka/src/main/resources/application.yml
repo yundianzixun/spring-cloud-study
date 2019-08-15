@@ -7,4 +7,20 @@ eureka:
     # 是否要从其他Eureka Server实例获取数据
     fetch-registry: false
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      # defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://user:123456@127.0.0.1:8761/eureka/
+spring:
+  security:
+    user:
+      name: user
+      password: 123456
+management:
+  endpoints:
+    web:
+      exposure:
+        # 开放所有监控端点
+        include: '*'
+  endpoint:
+    health:
+      # 是否展示健康检查详情
+      show-details: always

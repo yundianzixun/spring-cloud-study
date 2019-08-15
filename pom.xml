@@ -11,6 +11,11 @@
         <module>microservice-provider-user</module>
         <module>microservice-consumer-goods</module>
         <module>microservice-discovery-eureka</module>
+        <module>microservice-discovery-eureka-ha</module>
+        <module>microservice-provider-user-ribbon</module>
+        <module>microservice-consumer-goods-ribbon</module>
+        <module>microservice-discovery-eureka-security</module>
+        <module>microservice-consumer-goods-security</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
