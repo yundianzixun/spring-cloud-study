@@ -9,7 +9,7 @@ Spring Cloud（Greenwich版）系列博客
 
 [Spring Cloud（Greenwich版）-04-Spring Cloud集成Security（认证）](https://www.jianshu.com/p/44b79a59a73b)
 
-
+[Spring Cloud（Greenwich版）-05-Spring Cloud集成Ribbon（客户端负载均衡组件）](https://www.jianshu.com/p/058cb8ce746d)
 
 ## 贡献者
 
