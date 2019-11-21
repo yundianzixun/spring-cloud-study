@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @Auther: Lin
- * @Date: 2019-08-22 18:27
+ * @Date: 2019年11月21日16:46:25
  * @Description: 商品Controller
  */
 @RequestMapping("/goods")
