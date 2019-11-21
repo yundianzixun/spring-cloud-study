@@ -11,10 +11,10 @@ Spring Cloud（Greenwich版）系列博客
 
 [Spring Cloud（Greenwich版）-05-Spring Cloud集成Ribbon（客户端负载均衡组件）](https://www.jianshu.com/p/058cb8ce746d)
 
-[Spring Cloud系列教程第6节-Spring Cloud集成Feign](https://www.toutiao.com/i6761681607305740808/)
+[Spring Cloud（Greenwich版）-06-Spring Cloud集成Feign](https://www.toutiao.com/i6761681543262896647/)
 
 ## 贡献者
 
-*   [IT实战联盟-Line](https://www.jianshu.com/u/283f93ada597)
+*   [IT实战联盟-Line](https://www.toutiao.com/c/user/54292014798/#mid=1581755436678157)
 ## 社区
 ![image](http://upload-images.jianshu.io/upload_images/8122772-b78dee4c5818c874?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
